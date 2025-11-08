@@ -1,0 +1,17 @@
+kick_double_ip: |
+ &6&kTEST &2SERVER NAME &r&6&kTEST
+  &cUn autre joueur est déjà connecté
+  depuis cette IP !
+  
+  &9Discord: discord.gg/discord
+  Installe le plugin sur modrinth.com/project/antidoubleaccount
+welcome: "&aBienvenue sur le serveur !"
+log_format: "{date} - {player} connecté depuis {ip}"
+allow_ip_added: "&aIP {ip} ajoutée à la liste des IP autorisées."
+allow_ip_removed: "&cIP {ip} retirée de la liste des IP autorisées."
+allow_ip_exists: "&eIP {ip} est déjà dans la liste."
+allow_ip_not_found: "&eIP {ip} n'existe pas dans la liste."
+list_ips: "&aIP autorisées: {ips}"
+no_permission: "&cVous n'avez pas la permission pour cette commande."
+usage: "&cUsage: /antidouble <allow|remove|list> [ip]"
+unknown_command: "&cCommande inconnue !"
