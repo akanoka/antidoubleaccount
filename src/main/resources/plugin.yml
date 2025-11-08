@@ -1,0 +1,16 @@
+name: AntiDoubleAccount
+main: fr.akanoka.antidoubleaccount.AntiDoubleAccount
+version: 1.0
+author: AkaNoka
+description: Empêche les doubles comptes avec messages personnalisables et logs
+
+commands:
+  antidouble:
+    description: Gestion des IP autorisées
+    usage: /antidouble <allow|remove|list> [ip]
+    permission: antidouble.admin
+
+permissions:
+  antidouble.admin:
+    description: Permission pour gérer les IP autorisées
+    default: op
